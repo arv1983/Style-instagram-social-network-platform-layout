@@ -1,0 +1,194 @@
+    /*
+Theme Name: Instagram
+Author: Kenzie Academy
+Author URI: kenzie.com.br;
+Version: 1.0
+ 
+--------------------------------------------
+SUGESTÃO DE ESTRUTURAÇÃO BASE 
+--------------------------------------------
+**** DECLARAÇÃO DE VARIÁVEIS
+**** BODY
+**** TOPO
+**** RODAPÉ
+**** PÁGINA INICIAL
+*/
+    /* VARIÁVEIS */
+    
+     :root {}
+    
+    a {
+        text-decoration: none;
+        font-weight: 800;
+        color: navy;
+    }
+    
+    ul {
+        list-style: none;
+        padding: 0px;
+        margin: 0px;
+    }
+    /*BODY*/
+    
+    header figure {
+        margin: 15px;
+        margin-bottom: 1px;
+    }
+    
+    section.profile-info span {
+        font-weight: 900;
+    }
+    
+    body {
+        font-family: Helvetica, Arial, sans-serif;
+        color: #262626;
+        max-width: 935px;
+        margin: auto;
+    }
+    
+    h1 {
+        font-weight: 600;
+        font-size: 22px;
+        margin-top: 22px;
+        margin-bottom: 15px;
+    }
+    
+    main .profile-content {
+        display: flex;
+    }
+    
+    main .profile-data {
+        display: flex;
+    }
+    
+    section.profile-info h1 {
+        font-weight: 600;
+        font-size: 22px;
+        margin-top: 22px;
+        margin-bottom: 15px;
+    }
+    
+    section.profile-info h2 {
+        margin: 0px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    
+    .profile-data p {
+        margin-right: 3%;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+    
+    article.profile-content>section.profile-info>ul>li>p {
+        margin: 4px;
+        margin-left: 0px;
+    }
+    
+    .profile-photo img {
+        border-radius: 50%;
+        border: 1px #e8e8e8 solid;
+        padding: 4px;
+    }
+    
+    .profile-posts img {
+        width: 293px;
+        height: 293px;
+    }
+    
+    .highlighted-stories figure img {
+        border-radius: 50%;
+        border: 1px #e8e8e8 solid;
+        padding: 4px;
+        height: 77px;
+    }
+    /*TOPO*/
+    
+    header {}
+    /*RODAPÉ*/
+    
+    footer {}
+    /*PÁGINA INICIAL*/
+    
+    main {
+        background-color: #fafafa;
+        border-top: #e8e8e8 solid 1px;
+    }
+    
+    main .profile-content {}
+    
+    main .profile-posts {}
+    
+    article.profile-posts figure {
+        margin: 0px;
+    }
+    
+    article.highlighted-stories ul {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        font-weight: 800;
+    }
+    /* bug n sei pq */
+    
+    article.highlighted-stories>ul>li>figure {
+        margin: 0;
+        padding-top: 10px;
+        padding-left: 40px;
+        text-align: center;
+    }
+    
+    article.profile-posts ul {
+        list-style-type: none;
+        font-size: 14px;
+        display: inline-block;
+        position: relative;
+        columns: 100px 3;
+        padding-left: 0px;
+        width: 100%;
+    }
+    /* NAVEGAÇÂO */
+    
+    nav {
+        border-top: 1px darkgray solid;
+        text-align: center;
+        margin: 45px;
+    }
+    
+    article.profile-posts nav a {
+        border-top: 1px darkgray solid;
+        text-align: center;
+        color: darkgray;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    main nav a:hover {
+        border-top: 1px black solid;
+        color: black;
+    }
+    
+    footer {
+        margin-top: 20px;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        font-weight: 800;
+        background-color: #fafafa;
+        font-size: 14px;
+    }
+    
+    footer nav a {
+        border: 0;
+    }
+    
+    .footer-nav {
+        margin: 0;
+        border: 0;
+    }
+    
+    .copyright p {
+        margin: 0px;
+        text-align: right;
+        margin-left: 10px;
+    }

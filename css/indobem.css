@@ -1,0 +1,174 @@
+/*
+Theme Name: Instagram
+Author: Kenzie Academy
+Author URI: kenzie.com.br;
+Version: 1.0
+ 
+--------------------------------------------
+SUGESTÃO DE ESTRUTURAÇÃO BASE 
+--------------------------------------------
+**** DECLARAÇÃO DE VARIÁVEIS
+**** BODY
+**** TOPO
+**** RODAPÉ
+**** PÁGINA INICIAL
+*/
+
+
+/* VARIÁVEIS */
+
+:root {}
+
+
+/*BODY*/
+
+body {
+    font-style: Helvetica, Arial, serif;
+    color: #262626;
+    max-width: 935px;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/*TOPO*/
+
+header {
+    background-color: white;
+    margin-bottom: 0;
+}
+
+header figure {
+    margin-bottom: 0;
+}
+
+
+/*RODAPÉ*/
+
+footer {
+    margin: auto;
+    height: 90px;
+    background-color: skyblue;
+    padding: 10px;
+}
+
+
+/*PÁGINA INICIAL*/
+
+main {
+    background-color: #fafafa;
+    border-top: #e8e8e8 solid 1px;
+}
+
+main .profile-content {
+    display: flex;
+}
+
+.highlighted-stories li {}
+
+
+/* configuração dos seguidor? */
+
+.odd-new-highlight {
+    margin: 0;
+}
+
+.add-new-highlight figure {
+    margin: 0;
+    margin-left: 50px;
+}
+
+main .profile-data {
+    display: flex;
+}
+
+.profile-data span {
+    font-weight: bold;
+}
+
+.profile-data p {
+    margin-right: 3%;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+section.profile-info h1 {
+    font-style: Arial, sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    margin-top: 22px;
+    margin-bottom: 15px;
+}
+
+ul p {
+    margin: 0px;
+    line-height: 23px;
+}
+
+section.profile-info h2 {
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+main article.highlighted-stories ul {
+    display: inline-block;
+    position: relative;
+    columns: 30px;
+    width: 100%;
+    justify-content: left;
+}
+
+body>main>article.highlighted-stories>ul>li.add-new-highlight>figure>figcaption {
+    position: absolute;
+    vertical-align: baseline;
+}
+
+.profile-photo {
+    width: 240px;
+}
+
+.profile-photo img {
+    border-radius: 50%;
+    border: 1px #e8e8e8 solid;
+    padding: 4px;
+}
+
+.highlighted-stories figure img {
+    border-radius: 50%;
+    border: 1px #e8e8e8 solid;
+    padding: 4px;
+    height: 77px;
+}
+
+.highlighted-stories {
+    padding-top: 20px;
+    height: 50px;
+}
+
+.profile-posts img {
+    width: 293px;
+    height: 293px;
+}
+
+
+/* IMPORTANTE PARA MOBILE COLIMNS*/
+
+article.profile-posts ul {
+    list-style-type: none;
+    font-size: 14px;
+    display: inline-block;
+    position: relative;
+    columns: 100px 3;
+    padding-left: 0px;
+    width: 100%;
+}
