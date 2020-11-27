@@ -176,6 +176,10 @@ SUGESTÃO DE ESTRUTURAÇÃO BASE
         font-weight: 800;
         background-color: #fafafa;
         font-size: 14px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	justify-content: center;
+
     }
     
     footer nav a {
